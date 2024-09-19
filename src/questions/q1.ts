@@ -7,15 +7,13 @@ export function q1RemoverDuplicados(nums: number[]) {
 
   let numbersWithoutDuplicates: number[] = [];
 
-  nums.forEach((number, numberIndex) => {
+  nums.forEach((number) => {
     if (!numbersWithoutDuplicates.includes(number)) {
       numbersWithoutDuplicates.push(number);
-    } else {
-      nums.splice(numberIndex, 1);
     }
   });
 
-  return nums;
+  return numbersWithoutDuplicates;
 }
 
 // console.log(q1RemoverDuplicados([1, 2, 2, 3, 4, 4, 5]));
