@@ -145,7 +145,7 @@ export default function Question05() {
             </div>
 
             <button className="bg-blue-800 transition-colors text-white px-4 py-3 rounded-lg w-fit font-semibold hover:bg-blue-700 max-md:text-sm max-md:px-4 max-md:py-2">
-              Escolher plano
+              Assinar Agora
             </button>
           </div>
           <div className="bg-white flex flex-col justify-center items-center gap-8 mt-28 p-6 w-fit rounded-md relative shadow-lg shadow-slate-500 transition-transform hover:-translate-y-8 hover:shadow-green-900">
@@ -183,7 +183,7 @@ export default function Question05() {
             </div>
 
             <button className="bg-blue-800 transition-colors text-white px-4 py-3 rounded-lg w-fit font-semibold hover:bg-blue-700 max-md:text-sm max-md:px-4 max-md:py-2">
-              Escolher plano
+              Assinar Agora
             </button>
           </div>
           <div className="bg-white flex flex-col justify-center items-center gap-8 mt-28 p-6 w-fit rounded-md relative shadow-lg shadow-slate-500 transition-transform hover:-translate-y-8 hover:shadow-orange-900">
@@ -221,7 +221,7 @@ export default function Question05() {
             </div>
 
             <button className="bg-blue-800 transition-colors text-white px-4 py-3 rounded-lg w-fit font-semibold hover:bg-blue-700 max-md:text-sm max-md:px-4 max-md:py-2">
-              Escolher plano
+              Assinar Agora
             </button>
           </div>
         </div>
