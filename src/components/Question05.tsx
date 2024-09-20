@@ -110,7 +110,7 @@ export default function Question05() {
           className="flex justify-center items-start flex-wrap gap-10
          "
         >
-          <div className="bg-white flex flex-col justify-center items-center gap-8 mt-28 p-6 w-fit rounded-md relative shadow-lg shadow-slate-500 transition-transform hover:-translate-y-8">
+          <div className="bg-white flex flex-col justify-center items-center gap-8 mt-28 p-6 w-fit rounded-md relative shadow-lg shadow-slate-500 transition-transform hover:-translate-y-8 hover:shadow-fuchsia-900">
             <div className="text-white bg-fuchsia-900 flex flex-col justify-center items-center p-8 rounded-md shadow-lg shadow-slate-500 gap-1 w-fit absolute -top-20">
               <h3 className="font-bold text-xl">Plano Básico</h3>
               <h1 className="font-bold text-4xl">R$ 39,90</h1>
@@ -148,7 +148,7 @@ export default function Question05() {
               Escolher plano
             </button>
           </div>
-          <div className="bg-white flex flex-col justify-center items-center gap-8 mt-28 p-6 w-fit rounded-md relative shadow-lg shadow-slate-500 transition-transform hover:-translate-y-8">
+          <div className="bg-white flex flex-col justify-center items-center gap-8 mt-28 p-6 w-fit rounded-md relative shadow-lg shadow-slate-500 transition-transform hover:-translate-y-8 hover:shadow-green-900">
             <div className="text-white bg-green-800 flex flex-col justify-center items-center p-8 rounded-md shadow-lg shadow-slate-500 gap-1 w-fit absolute -top-20">
               <h3 className="font-bold text-xl">Plano Pro</h3>
               <h1 className="font-bold text-4xl">R$ 59,90</h1>
@@ -186,7 +186,7 @@ export default function Question05() {
               Escolher plano
             </button>
           </div>
-          <div className="bg-white flex flex-col justify-center items-center gap-8 mt-28 p-6 w-fit rounded-md relative shadow-lg shadow-slate-500 transition-transform hover:-translate-y-8">
+          <div className="bg-white flex flex-col justify-center items-center gap-8 mt-28 p-6 w-fit rounded-md relative shadow-lg shadow-slate-500 transition-transform hover:-translate-y-8 hover:shadow-orange-900">
             <div className="text-white bg-orange-800 flex flex-col justify-center items-center p-8 rounded-md shadow-lg shadow-slate-500 gap-1 w-fit absolute -top-20">
               <h3 className="font-bold text-xl">Plano Premium</h3>
               <h1 className="font-bold text-4xl">R$ 89,90</h1>
