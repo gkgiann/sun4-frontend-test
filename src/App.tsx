@@ -1,5 +1,4 @@
-import Question04 from "./components/Question04";
-import Question05 from "./components/Question05";
+import { Link } from "react-router-dom";
 
 import {
   q1RemoverDuplicados,
@@ -43,11 +42,15 @@ function App() {
           return <span>{JSON.stringify(dataFormatada)}, </span>;
         })}
       </div>
+
+      <Link to="/q4" className="font-bold text-blue-800 hover:underline">
+        Link para a questão 04
+      </Link>
+      <Link to="/q5" className="font-bold text-blue-800 hover:underline">
+        Link para a questão 05
+      </Link>
     </div>
   );
-
-  // return <Question04 />;
-  // return <Question05 />;
 }
 
 export default App;
