@@ -36,10 +36,15 @@ function App() {
       </div>
       <div className="flex gap-2">
         <span className="font-bold">Questão 03: </span>
-        {datasParaTratar.map((data) => {
+        {datasParaTratar.map((data, i) => {
           const dataFormatada = q3TratarDatas(data);
 
-          return <span>{JSON.stringify(dataFormatada)}, </span>;
+          return (
+            <span>
+              {JSON.stringify(dataFormatada)}
+              {i + 1 < datasParaTratar.length && ","}
+            </span>
+          );
         })}
       </div>
 
