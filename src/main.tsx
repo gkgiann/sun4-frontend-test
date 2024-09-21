@@ -4,8 +4,8 @@ import App from "./App.tsx";
 import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Question04 from "./components/Question04.tsx";
-import Question05 from "./components/Question05.tsx";
+import Question04 from "./questions/Question04.tsx";
+import Question05 from "./questions/Question05.tsx";
 
 const router = createBrowserRouter([
   {
