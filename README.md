@@ -1,50 +1,43 @@
-# React + TypeScript + Vite
+# Estágio Sun4 - Teste Técnico Front-End
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Status do Projeto: Concluido :heavy_check_mark:
 
-Currently, two official plugins are available:
+## :memo: Descrição do projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este repositório contém a resolução da etapa do teste técnico para a vaga de estágio front-end na Sun4.
 
-## Expanding the ESLint configuration
+## :rocket: Link da Aplicação:
+https://sun4-frontend-test.vercel.app
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## :books: Questões
 
-- Configure the top-level `parserOptions` property like this:
+:heavy_check_mark: **Questão 01: Remover Duplicados**
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+:heavy_check_mark: **Questão 02: Contar Frequencia de Palavra**
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+:heavy_check_mark: **Questão 03: Tratar Datas**
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+:heavy_check_mark: **Questão 04: Estrutura HTML/CSS responsiva**
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+:heavy_check_mark: **Questão 05: Landing Page**
+
+
+## :wrench: Tecnologias utilizadas
+
+<a  href="https://reactjs.org"  target="_blank">
+
+<img  width="50"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"  />
+
+</a>
+
+<a  href="https://www.typescriptlang.org"  target="_blank">
+
+<img  width="50"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"  />
+
+</a>
+
+<a  href="https://tailwindcss.com"  target="_blank">
+
+<img  width="50"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"  />
+
+</a>
